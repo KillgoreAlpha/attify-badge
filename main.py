@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-from PyQt4 import QtCore, QtGui
-from PyQt4.QtGui import QIcon
-from PyQt4.QtCore import SIGNAL
+from PyQt5 import QtCore, QtGui
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import SIGNAL
 from UI.Badge import Ui_MainWindow
 from src.GpioInputMonitor import IPMonitor
 from src.Threads import UART_ConsoleReadThread,I2CScanner,OpenOCDServerThread,JTAGTelnetThread,JTAGGdbThread,I2COperationThread
