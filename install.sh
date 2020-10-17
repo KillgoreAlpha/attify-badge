@@ -38,7 +38,7 @@ sudo apt-get install openocd
 echo
 echo "[*] Getting PyQt "
 echo
-sudo apt-get install python-qt4
+pip install pyqt5
 echo
 echo "[*] Getting git"
 echo
